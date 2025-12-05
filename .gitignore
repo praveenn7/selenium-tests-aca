@@ -1,0 +1,44 @@
+###############################
+# Eclipse-specific files
+###############################
+.settings/
+.classpath
+.project
+
+###############################
+# Maven target directory
+###############################
+target/
+
+###############################
+# Test output directories
+###############################
+test-output/
+reports/
+
+###############################
+# IDE metadata & OS junk
+###############################
+*.iml
+*.log
+*.tmp
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+###############################
+# Java-specific
+###############################
+*.class
+
+###############################
+# Other common ignores
+###############################
+*.jar
+*.war
+*.ear
