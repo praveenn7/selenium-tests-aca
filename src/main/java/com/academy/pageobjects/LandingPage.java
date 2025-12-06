@@ -39,6 +39,7 @@ public class LandingPage extends AbstractComponent{
 	{
 		userEmail.sendKeys(email);
 		passwordEle.sendKeys(password);
+		waitForWebElementToBeClickable(submit);
 		submit.click();
 		ProductCatalogue productCatalogue = new ProductCatalogue(driver);
 		return productCatalogue;
